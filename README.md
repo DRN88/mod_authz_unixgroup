@@ -1,10 +1,12 @@
 # Building mod_authz_unixgroup on CentOS 7
 
-  https://code.google.com/archive/p/mod-auth-external/wikis/ModAuthzUnixGroup.wiki
-  https://code.google.com/archive/p/mod-auth-external/downloads
+https://code.google.com/archive/p/mod-auth-external/wikis/ModAuthzUnixGroup.wiki
 
-  Use 1.1.0 for Apache 2.3/2.4
-  Use 1.0.x for Apache 2.2
+https://code.google.com/archive/p/mod-auth-external/downloads
+
+Use 1.1.0 for Apache 2.3/2.4
+
+Use 1.0.x for Apache 2.2
 
 ## Quick Build
 

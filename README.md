@@ -16,8 +16,8 @@ Linux ftp1 3.10.0-327.22.2.el7.x86_64 #1 SMP Thu Jun 23 17:05:11 UTC 2016 x86_64
 [root@ftp1 ~]#
 
 ```
-https://github.com/DRN88/mod_authz_unixgroup/raw/master/mod_authz_unixgroup-1.1.0/artifacts/mod_authz_unixgroup-1.1.0-7.el7.centos.x86_64.rpm  
-https://github.com/DRN88/mod_authz_unixgroup/raw/master/mod_authz_unixgroup-1.1.0/artifacts/mod_authz_unixgroup-debuginfo-1.1.0-7.el7.centos.x86_64.rpm  
+https://github.com/DRN88/mod_authz_unixgroup/raw/master/artifacts/1.1.0/mod_authz_unixgroup-1.1.0-7.el7.centos.x86_64.rpm  
+https://github.com/DRN88/mod_authz_unixgroup/raw/master/artifacts/1.1.0/mod_authz_unixgroup-debuginfo-1.1.0-7.el7.centos.x86_64.rpm  
 
 ## Quick Build
 

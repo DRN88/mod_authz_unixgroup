@@ -9,11 +9,11 @@ Use 1.0.x for Apache 2.2 (not tested)
 ## Artifacts
 These are ready to be installed. Built on:
 ```bash
-[root@ftp1 ~]# cat /etc/redhat-release
+[root@box ~]# cat /etc/redhat-release
 CentOS Linux release 7.2.1511 (Core)
-[root@ftp1 ~]# uname -a
-Linux ftp1 3.10.0-327.22.2.el7.x86_64 #1 SMP Thu Jun 23 17:05:11 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
-[root@ftp1 ~]#
+[root@box ~]# uname -a
+Linux box 3.10.0-327.22.2.el7.x86_64 #1 SMP Thu Jun 23 17:05:11 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+[root@box ~]#
 
 ```
 https://github.com/DRN88/mod_authz_unixgroup/raw/master/artifacts/1.1.0/mod_authz_unixgroup-1.1.0-7.el7.centos.x86_64.rpm  

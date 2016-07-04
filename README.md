@@ -4,9 +4,9 @@ https://code.google.com/archive/p/mod-auth-external/wikis/ModAuthzUnixGroup.wiki
 
 https://code.google.com/archive/p/mod-auth-external/downloads
 
-Use 1.1.0 for Apache 2.3/2.4
+Use 1.1.0 for Apache 2.3/2.4 (tested, works)
 
-Use 1.0.x for Apache 2.2
+Use 1.0.x for Apache 2.2 (not tested)
 
 ## Quick Build
 

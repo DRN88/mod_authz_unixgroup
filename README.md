@@ -1,12 +1,13 @@
 # Building mod_authz_unixgroup on CentOS 7
 
-https://code.google.com/archive/p/mod-auth-external/wikis/ModAuthzUnixGroup.wiki
+https://code.google.com/archive/p/mod-auth-external/wikis/ModAuthzUnixGroup.wiki  
+https://code.google.com/archive/p/mod-auth-external/downloads  
 
-https://code.google.com/archive/p/mod-auth-external/downloads
+Use 1.1.0 for Apache 2.3/2.4 (tested, works)  
+Use 1.0.x for Apache 2.2 (not tested)  
 
-Use 1.1.0 for Apache 2.3/2.4 (tested, works)
+## Artifacts
 
-Use 1.0.x for Apache 2.2 (not tested)
 
 ## Quick Build
 
@@ -27,7 +28,7 @@ spectool -g -R /root/rpmbuild/SPECS/mod_authz_unixgroup.spec
 rpmbuild -ba /root/rpmbuild/SPECS/mod_authz_unixgroup.spec
 ```
 
-## Artifacts
+## Built Artifacts
 ```bash
 [root@box ~]# tree rpmbuild/RPMS/
 rpmbuild/RPMS/
@@ -36,4 +37,10 @@ rpmbuild/RPMS/
     └── mod_authz_unixgroup-debuginfo-1.1.0-7.el7.centos.x86_64.rpm
 
 1 directory, 2 files
+
+[root@box ~]# cd /root/rpmbuild/RPMS/x86_64/
+[root@box x86_64]# sha1sum *
+beed29cbfb144bd8bed476ea91dd0659137ce2ae  mod_authz_unixgroup-1.1.0-7.el7.centos.x86_64.rpm
+05f4d824f8ea57f6a2bb1afe10d7bfc459d95b9b  mod_authz_unixgroup-debuginfo-1.1.0-7.el7.centos.x86_64.rpm
+
 ```
